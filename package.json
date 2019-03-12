@@ -1,0 +1,24 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "My simple typescript boilerplate",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run build:lint && npm run build:compile",
+    "build:compile": "tsc --project tsconfig.json",
+    "build:lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Matt Styles",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.4.0",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333"
+  }
+}

@@ -7,7 +7,8 @@
     "build": "npm run build:lint && npm run build:compile",
     "build:compile": "tsc --project tsconfig.json",
     "build:lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "npm run test -- --collectCoverage"
   },
   "keywords": [],
   "author": "Matt Styles",

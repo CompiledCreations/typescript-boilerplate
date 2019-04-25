@@ -3,4 +3,5 @@ node_modules
 
 # Build Artifacts
 dist/
+build/
 coverage/

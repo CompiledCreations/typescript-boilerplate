@@ -1,2 +1,2 @@
-// tslint:disable-next-line
+// eslint-disable-next-line no-console
 console.log("Typescript Boilerplate Project");

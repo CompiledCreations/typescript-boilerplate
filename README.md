@@ -2,7 +2,7 @@
 
 Yet another typescript boilerplate project. Everybody has one, this one is mine.
 
-This gets us up and running quickly with a basic typescript project for compiling node projects with support for linting (tslint) and unit tests (jest).
+This gets us up and running quickly with a basic typescript project for compiling node projects with support for linting (eslint) and unit tests (jest).
 
 # Quick Start
 
